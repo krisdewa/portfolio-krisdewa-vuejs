@@ -9,8 +9,7 @@
                     <div class="project-item show rounded">
                         <img src="frontend/portfolio/apotek.png" class="w-100" />
                         <div class="overlay-project">
-                            <a class="viewproject" href="https://apotek.krisdewa.my.id" target="_blank">Ecommerce Apotek
-                                K-24</a>
+                            <a class="viewproject" href="https://apotek.krisdewa.my.id" target="_blank">APOTEK-24</a>
                         </div>
                     </div>
                 </div>
