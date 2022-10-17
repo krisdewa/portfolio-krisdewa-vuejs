@@ -7,6 +7,7 @@
             <div class="port">
                 <div class="carousel"
                     data-flickity='{ "imagesLoaded": true, "autoPlay": true , "percentPosition": false, "wrapAround": true }'>
+                    <img src="frontend/certificate/programmingcontest.png             " alt="ddp">
                     <img src="frontend/certificate/ddp2.jpg                           " alt="ddp">
                     <img src="frontend/certificate/piagamupc.jpg                      " alt="" /> />
                     <img src="frontend/certificate/ftth.jpg                           " alt="" />
