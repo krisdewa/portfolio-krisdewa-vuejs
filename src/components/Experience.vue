@@ -10,20 +10,32 @@
                     <img src="frontend/certificate/programmingcontest.png             " alt="ddp">
                     <img src="frontend/certificate/ddp2.jpg                           " alt="ddp">
                     <img src="frontend/certificate/piagamupc.jpg                      " alt="" /> />
+                    <img src="frontend/certificate/dicodingreact.jpg                  " alt="" />
+                    <img src="frontend/certificate/dicodingjs.jpg                     " alt="" />
+                    <img src="frontend/certificate/dicodingpweb.jpg                   " alt="" />
+                    <img src="frontend/certificate/dicodingfe.jpg                     " alt="" />
+                    <img src="frontend/certificate/dicodingc.jpg                      " alt="" />
+                    <img src="frontend/certificate/dicodingjava.jpg                   " alt="" />
+                    <img src="frontend/certificate/dicodingsolid.jpg                  " alt="" />
                     <img src="frontend/certificate/ftth.jpg                           " alt="" />
-                    <img src="frontend/certificate/udemyethicalhack.jpg               " alt="" />
-                    <img src="frontend/certificate/udemyhackandroid.jpg               " alt="" />
-                    <img src="frontend/certificate/udemyc++.jpg                       " alt="" />
-                    <img src="frontend/certificate/udemypremiere.jpg                  " alt="" />
-                    <img src="frontend/certificate/udemyyt.jpg                        " alt="" />
-                    <img src="frontend/certificate/Aguna Course Python fundamental.jpg" alt="" />
-                    <img src="frontend/certificate/Aguna Course Virtual Machine.jpg   " alt="" />
-                    <img src="frontend/certificate/webinarrelata.jpg                  " alt="" />
+                    <img src="frontend/certificate/seagate2.jpg                       " alt="" />
+                    <img src="frontend/certificate/seagate2.jpg                       " alt="" />
+                    <img src="frontend/certificate/seagate2.jpg                       " alt="" />
+                    <img src="frontend/certificate/seagate2.jpg                       " alt="" />
                     <img src="frontend/certificate/acp1.jpg                           " alt="" />
                     <img src="frontend/certificate/acp2.jpg                           " alt="" />
                     <img src="frontend/certificate/acp3.jpg                           " alt="" />
                     <img src="frontend/certificate/seagate1.jpg                       " alt="" />
                     <img src="frontend/certificate/seagate2.jpg                       " alt="" />
+                    <img src="frontend/certificate/Aguna Course Python fundamental.jpg" alt="" />
+                    <img src="frontend/certificate/Aguna Course Virtual Machine.jpg   " alt="" />
+
+                    <!-- <img src="frontend/certificate/udemyethicalhack.jpg               " alt="" />
+                    <img src="frontend/certificate/udemyhackandroid.jpg               " alt="" />
+                    <img src="frontend/certificate/udemyc++.jpg                       " alt="" />
+                    <img src="frontend/certificate/udemypremiere.jpg                  " alt="" />
+                    <img src="frontend/certificate/udemyyt.jpg                        " alt="" /> -->
+                    <!-- <img src="frontend/certificate/webinarrelata.jpg                  " alt="" /> -->
 
                     <!-- {{-- <img src="{{ asset('certificate/webinarbemfti.jpg                  ') }}    " alt="" /> --}}
                     {{-- <img src="{{ asset('certificate/webinarpermikomnas.png  ') }}               " alt="" /> --}}
