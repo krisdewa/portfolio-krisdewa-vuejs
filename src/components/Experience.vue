@@ -9,7 +9,11 @@
                     data-flickity='{ "imagesLoaded": true, "autoPlay": true , "percentPosition": false, "wrapAround": true }'>
                     <img src="frontend/certificate/programmingcontest.png             " alt="ddp">
                     <img src="frontend/certificate/ddp2.jpg                           " alt="ddp">
+                    <img src="frontend/certificate/haxoracademy.jpg                   " alt="" /> />
                     <img src="frontend/certificate/piagamupc.jpg                      " alt="" /> />
+                    <img src="frontend/certificate/lsp1.jpg                           " alt="" />
+                    <img src="frontend/certificate/lsp2.jpg                           " alt="" />
+                    <img src="frontend/certificate/panitiatdays.jpg                   " alt="" /> />
                     <img src="frontend/certificate/dicodingreact.jpg                  " alt="" />
                     <img src="frontend/certificate/dicodingjs.jpg                     " alt="" />
                     <img src="frontend/certificate/dicodingpweb.jpg                   " alt="" />
@@ -18,15 +22,20 @@
                     <img src="frontend/certificate/dicodingjava.jpg                   " alt="" />
                     <img src="frontend/certificate/dicodingsolid.jpg                  " alt="" />
                     <img src="frontend/certificate/ftth.jpg                           " alt="" />
-                    <img src="frontend/certificate/seagate2.jpg                       " alt="" />
-                    <img src="frontend/certificate/seagate2.jpg                       " alt="" />
-                    <img src="frontend/certificate/seagate2.jpg                       " alt="" />
-                    <img src="frontend/certificate/seagate2.jpg                       " alt="" />
                     <img src="frontend/certificate/acp1.jpg                           " alt="" />
                     <img src="frontend/certificate/acp2.jpg                           " alt="" />
                     <img src="frontend/certificate/acp3.jpg                           " alt="" />
                     <img src="frontend/certificate/seagate1.jpg                       " alt="" />
                     <img src="frontend/certificate/seagate2.jpg                       " alt="" />
+                    <img src="frontend/certificate/alterrabackendgolang.jpg           " alt="" />
+                    <img src="frontend/certificate/alterrajs.jpg                      " alt="" />
+                    <img src="frontend/certificate/googleanalytic.jpg                 " alt="" />
+                    <img src="frontend/certificate/hariseninfullstack.jpg             " alt="" />
+                    <img src="frontend/certificate/hariseninuiux.jpg                  " alt="" />
+                    <img src="frontend/certificate/informationsecurity.jpg            " alt="" />
+                    <img src="frontend/certificate/bssnseminar.jpg                    " alt="" />
+                    <img src="frontend/certificate/bssnsibermin.jpg                   " alt="" />
+                    <img src="frontend/certificate/microsoftinnovatif.jpg             " alt="" />
                     <img src="frontend/certificate/Aguna Course Python fundamental.jpg" alt="" />
                     <img src="frontend/certificate/Aguna Course Virtual Machine.jpg   " alt="" />
 
