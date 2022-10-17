@@ -47,8 +47,5 @@
 <script>
 export default {
     name: "ExperienceComponent",
-    props: {
-        msg: String,
-    },
 };
 </script>

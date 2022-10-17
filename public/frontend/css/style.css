@@ -772,17 +772,25 @@ h3.projecth3 {
 .viewproject {
     color: #f05454;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
     justify-content: center;
+    transition: 0.3s;
+    padding: 5px 10px;
+    border: 2px solid #f05454;
+    border-radius: 5px;
+    margin: 2px;
 }
 
 .viewproject:hover {
-    color: #f38888;
+    color: #ffffff;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 25px;
     text-decoration: none;
     justify-content: center;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
 }
 
 /* =================================================================================================== */
@@ -819,9 +827,9 @@ h3.projecth3 {
 
 .footer .social-media img:hover {
     /* animation: heartBeat 1.5s infinite; */
-    -webkit-transform: rotateZ(-20deg);
-    -ms-transform: rotateZ(-20deg);
-    transform: rotateZ(-20deg);
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
     transition: 1s ease;
 }
 

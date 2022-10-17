@@ -34,12 +34,12 @@
 <script>
 
 export default {
-    name: "MainComponent",
-    data() {
-        return {
-            msg: "Welcome to Your Vue.js App"
-        };
-    }
+    name: "HomeComponent",
+    // data() {
+    //     return {
+    //         msg: "Welcome to Your Vue.js App"
+    //     };
+    // }
 };
 
 </script>
