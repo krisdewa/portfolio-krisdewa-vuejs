@@ -9,11 +9,11 @@
                     data-flickity='{ "imagesLoaded": true, "autoPlay": true , "percentPosition": false, "wrapAround": true }'>
                     <img src="frontend/certificate/programmingcontest.png             " alt="ddp">
                     <img src="frontend/certificate/ddp2.jpg                           " alt="ddp">
-                    <img src="frontend/certificate/haxoracademy.jpg                   " alt="" /> />
-                    <img src="frontend/certificate/piagamupc.jpg                      " alt="" /> />
+                    <img src="frontend/certificate/haxoracademy.jpg                   " alt="" />
+                    <img src="frontend/certificate/piagamupc.jpg                      " alt="" />
                     <img src="frontend/certificate/lsp1.jpg                           " alt="" />
                     <img src="frontend/certificate/lsp2.jpg                           " alt="" />
-                    <img src="frontend/certificate/panitiatdays.jpg                   " alt="" /> />
+                    <img src="frontend/certificate/panitiatdays.jpg                   " alt="" />
                     <img src="frontend/certificate/dicodingreact.jpg                  " alt="" />
                     <img src="frontend/certificate/dicodingjs.jpg                     " alt="" />
                     <img src="frontend/certificate/dicodingpweb.jpg                   " alt="" />
@@ -71,3 +71,79 @@ export default {
     name: "ExperienceComponent",
 };
 </script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style>
+.carousel-cell {
+    width: 100%;
+    /* full width */
+    height: 160px;
+    /* height of carousel */
+    margin-right: 10px;
+}
+
+.flickity-page-dots {
+    bottom: -40px;
+}
+
+/* white circles */
+.flickity-page-dots .dot {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid #f05454;
+}
+
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+    background: #f05454;
+}
+
+/* STYLE NEXT PREV BUTTON */
+.flickity-button {
+    background: #f05454;
+    transition: 0.5s;
+}
+
+.flickity-button:hover {
+    background: #ef9a9a;
+}
+
+.flickity-prev-next-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+/* icon color */
+.flickity-button-icon {
+    fill: #fff;
+}
+
+/* position outside */
+.flickity-prev-next-button.previous {
+    left: -40px;
+}
+
+.flickity-prev-next-button.next {
+    right: -40px;
+}
+
+@media screen and (max-width: 768px) {
+    .flickity-page-dots {
+        bottom: -60px;
+    }
+
+    .flickity-page-dots .dot {
+        background: transparent;
+        border: 2px solid transparent;
+    }
+
+    /* fill-in selected dot */
+    .flickity-page-dots .dot.is-selected {
+        background: transparent;
+    }
+
+}
+</style>

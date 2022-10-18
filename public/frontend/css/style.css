@@ -694,7 +694,7 @@ h2.toolsh2 {
 .port {
     margin-top: 30px;
     margin-bottom: 100px;
-    background: #dddddd;
+    /* background: #dddddd; */
     /* box-shadow: 0px 0px 0px #bebebe; */
     /* padding: 30px 30px 50px 30px; */
     padding-top: 5px;
