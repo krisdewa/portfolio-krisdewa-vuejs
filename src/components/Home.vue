@@ -23,7 +23,8 @@
                     <a href="mailto:krisnadp23@gmail.com" class="btn btn-primary contact">Let's Work Together</a>
                 </div>
                 <div class="col-md-4">
-                    <img class="hero_img img-fluid" src="frontend/hero/main_foto .png" alt="hero" />
+                    <img class="hero_img img-fluid" src="frontend/hero/main_foto .png" alt="Foto Krisdewa"
+                        loading="lazy" />
                 </div>
             </div>
         </div>
