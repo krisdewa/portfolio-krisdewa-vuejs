@@ -8,7 +8,7 @@
                 <div class="row flex-column-reverse flex-md-row">
                     <div class="row">
                         <div class="col-md-4">
-                            <img class="about_img img-fluid" src="frontend/hero/hero-krisna.jpg" alt="hero"
+                            <img class="about_img img-fluid" src="frontend/hero/hero-krisna1.jpg" alt="hero"
                                 loading="lazy" />
                         </div>
 
