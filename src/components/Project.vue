@@ -8,9 +8,9 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="project-item show rounded">
-                        <img src="frontend/portfolio/adjineon.png" class="w-100" />
+                        <img src="frontend/portfolio/adjineon.png" class="w-100" loading="lazy" />
                         <div class="overlay-project">
-                            <div>
+                            <div class="justify-content-center text-center">
                                 <h4 class="project-title text-center mb-4">CV ADJINEON</h4>
                                 <a class="viewproject" href="https://adjineon.com" target="_blank">LINK</a>
                                 <a class="viewproject" href="https://adjineon.com" target="_blank">REPO</a>
@@ -21,10 +21,10 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="project-item show rounded">
-                        <img src="frontend/portfolio/yogsmap.png" class="w-100" />
+                        <img src="frontend/portfolio/yogsmap.png" class="w-100" loading="lazy" />
                         <div class="overlay-project">
-                            <div>
-                                <h4 class="project-title text-center mb-4">YOGSMAP</h4>
+                            <div class="justify-content-center text-center">
+                                <h4 class="project-title text-center mb-4">YOGSMAP(Php)</h4>
                                 <a class="viewproject" href="https://yogsmap.krisdewa.my.id" target="_blank">LINK</a>
                                 <a class="viewproject" href="https://github.com/krisdewa/yogsmap"
                                     target="_blank">REPO</a>
@@ -35,10 +35,10 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="project-item show rounded">
-                        <img src="frontend/portfolio/webprofile1.png" class="w-100" />
+                        <img src="frontend/portfolio/webprofile1.png" class="w-100" loading="lazy" />
                         <div class="overlay-project">
-                            <div>
-                                <h4 class="project-title text-center mb-4">WEB PROFILE</h4>
+                            <div class="justify-content-center text-center">
+                                <h4 class="project-title text-center mb-4">WEB PROFILE(Vue js)</h4>
                                 <a class="viewproject" href="https://krisproject.my.id" target="_blank">LINK</a>
                                 <a class="viewproject" href="https://github.com/krisdewa/portfolio-krisdewa-vuejs"
                                     target="_blank">REPO</a>
@@ -49,9 +49,9 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="project-item show rounded">
-                        <img src="frontend/portfolio/apotek.png" class="w-100" />
+                        <img src="frontend/portfolio/apotek.png" class="w-100" loading="lazy" />
                         <div class="overlay-project">
-                            <div>
+                            <div class="justify-content-center text-center">
                                 <h4 class="project-title text-center mb-4">APOTEK-24</h4>
                                 <a class="viewproject" href="https://apotek.krisdewa.my.id" target="_blank">LINK</a>
                                 <a class="viewproject" href="https://github.com/krisdewa/PHP-CRUD-Apotek"
@@ -63,10 +63,10 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="project-item show rounded">
-                        <img src="frontend/portfolio/kostqita.png" class="w-100" />
+                        <img src="frontend/portfolio/kostqita.png" class="w-100" loading="lazy" />
                         <div class="overlay-project">
-                            <div>
-                                <h4 class="project-title text-center mb-4">KOST QITA</h4>
+                            <div class="justify-content-center text-center">
+                                <h4 class="project-title text-center mb-4">KOST QITA(CodeIgniter)</h4>
                                 <a class="viewproject" href="https://here.krisdewa.my.id" target="_blank">LINK</a>
                                 <a class="viewproject" href="#" target="_blank">REPO</a>
                             </div>
@@ -76,10 +76,24 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="project-item show rounded">
-                        <img src="frontend/portfolio/linkkrisdewa.png" class="w-100" />
+                        <img src="frontend/portfolio/ppdbsekolahkakseto.png" class="w-100" loading="lazy" />
                         <div class="overlay-project">
-                            <div class="">
-                                <h4 class="text-center">Clone LinkTree ReactJS</h4>
+                            <div class="justify-content-center text-center">
+                                <h4 class="text-center">SIK SekolahKakSeto</h4>
+                                <a class="viewproject" href="#" target="_blank">LINK</a>
+                                <!-- <a class="viewproject" href=""
+                                    target="_blank">REPO</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-item show rounded">
+                        <img src="frontend/portfolio/linkkrisdewa.png" class="w-100" loading="lazy" />
+                        <div class="overlay-project">
+                            <div class="justify-content-center text-center">
+                                <h4 class="text-center">Clone LinkTree (ReactJS)</h4>
                                 <a class="viewproject" href="https://link.krisproject.my.id" target="_blank">LINK</a>
                                 <a class="viewproject" href="https://github.com/krisdewa/clone-linktree-react"
                                     target="_blank">REPO</a>
@@ -90,7 +104,7 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="project-item show rounded">
-                        <img src="frontend/portfolio/comingsoon.jpg" class="w-100" />
+                        <img src="frontend/portfolio/comingsoon.jpg" class="w-100" loading="lazy" />
                         <div class="overlay-project">
                             <!-- <h4 class="text-center">Coming Soon</h4> -->
                             <a class="viewproject" href="https://here.krisdewa.my.id" target="_blank">Coming Soon</a>
