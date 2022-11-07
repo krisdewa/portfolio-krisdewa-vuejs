@@ -4,7 +4,18 @@
   <AboutMe />
   <Skills />
   <Experience />
-  <Project />
+
+  <!-- PORTOFOLIO -->
+  <Suspense>
+    <template #default>
+      <Project />
+    </template>
+    <template #fallback>
+      <ProjectSkeletonVue />
+    </template>
+  </Suspense>
+  <!-- END PORTOFOLIO -->
+
   <Contact />
   <ScrollToTop />
 </template>
@@ -21,6 +32,8 @@ import Project from './components/Project.vue'
 import Contact from './components/Contact.vue'
 import ScrollToTop from './components/ScrollToTop.vue'
 
+import ProjectSkeletonVue from './components/ProjectSkeleton.vue'
+
 export default {
   name: 'App',
   components: {
@@ -32,6 +45,7 @@ export default {
     Project,
     Contact,
     ScrollToTop,
+    ProjectSkeletonVue
   }
 }
 </script>

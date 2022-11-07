@@ -121,13 +121,18 @@ Instagram        : @kris_dewa
 /* =================================================================================================== */
 /*                                                  BODY                                               */
 /* =================================================================================================== */
-/* FONT */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600&display=swap");
+
+/* FONT POPPINS */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600&display=swap"); */
+
+/* FONT QuickSand */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 body {
     background: #222831;
     color: #fafafa;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Quicksand", sans-serif;
     overflow-x: hidden;
 }
 

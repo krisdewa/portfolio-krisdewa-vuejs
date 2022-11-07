@@ -23,8 +23,9 @@
                     <a href="mailto:krisnadp23@gmail.com" class="btn btn-primary contact">Let's Work Together</a>
                 </div>
                 <div class="col-md-4">
-                    <img class="hero_img img-fluid" src="frontend/hero/main_foto .png" alt="Foto Krisdewa"
-                        loading="lazy" />
+                    <!-- <img class="hero_img img-fluid" src="frontend/hero/main_foto .png" alt="Foto Krisdewa"
+                        loading="lazy" /> -->
+                    <img v-bind:src="home.main" class="hero_img img-fluid" alt="Foto Krisdewa" loading="lazy" />
                 </div>
             </div>
         </div>
@@ -36,11 +37,47 @@
 
 export default {
     name: "HomeComponent",
-    // data() {
-    //     return {
-    //         msg: "Welcome to Your Vue.js App"
-    //     };
-    // }
+    data() {
+        return {
+            home: {
+                main: require('../assets/hero/main_foto.png')
+            }
+        }
+    },
+    // lazy loading image 
+
+    mounted() {
+        const images = document.querySelectorAll("[data-src]");
+
+        const imgOptions = {
+            threshold: 0,
+            rootMargin: "0px 0px 50px 0px",
+        };
+
+        const imgObserver = new IntersectionObserver((entries, imgObserver) => {
+            entries.forEach((entry) => {
+                if (!entry.isIntersecting) {
+                    return;
+                } else {
+                    preloadImage(entry.target);
+                    imgObserver.unobserve(entry.target);
+                }
+            });
+        }, imgOptions);
+
+        images.forEach((image) => {
+            imgObserver.observe(image);
+        });
+
+        function preloadImage(img) {
+            const src = img.getAttribute("data-src");
+            if (!src) {
+                return;
+            }
+
+            img.src = src;
+        }
+    },
 };
 
 </script>
