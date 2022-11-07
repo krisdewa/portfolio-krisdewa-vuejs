@@ -181,7 +181,7 @@ export default {
     async setup() {
         const portfolio = ref([])
 
-        await new Promise(resolve => setTimeout(resolve, 10000));
+        await new Promise(resolve => setTimeout(resolve, 5000));
 
         portfolio.value = [
             {

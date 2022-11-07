@@ -3,6 +3,16 @@
   <Home />
   <AboutMe />
   <Skills />
+
+  <!-- <Suspense>
+    <template #default>
+      <Experiences />
+    </template>
+    <template #fallback>
+      <div>Loading...</div>
+    </template>
+  </Suspense> -->
+
   <Experience />
 
   <!-- PORTOFOLIO -->
@@ -28,6 +38,7 @@ import Home from './components/Home.vue'
 import AboutMe from './components/AboutMe.vue'
 import Skills from './components/Skills.vue'
 import Experience from './components/Experience.vue'
+// import Experiences from './components/Experiences.vue'
 import Project from './components/Project.vue'
 import Contact from './components/Contact.vue'
 import ScrollToTop from './components/ScrollToTop.vue'
@@ -42,6 +53,7 @@ export default {
     AboutMe,
     Skills,
     Experience,
+    // Experiences,
     Project,
     Contact,
     ScrollToTop,
