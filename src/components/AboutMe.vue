@@ -60,7 +60,7 @@ export default {
     data() {
         return {
             aboutme: {
-                hero: require('../assets/hero/hero-krisna1.jpg')
+                hero: require('../assets/hero/hero-krisna2.png')
             }
         }
     },
