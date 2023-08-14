@@ -46,7 +46,7 @@
             </div>
         </div>
     </div>
-    <!-- END ABOUT ME-->
+    <!-- END ABOUT ME -->
 </template>
 
 <script>
