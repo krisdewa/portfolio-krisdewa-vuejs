@@ -63,8 +63,118 @@
 </template>
 
 <script>
+import ref from 'vue'
+
 export default {
         name: "SkillComponent",
+        async setup() {
+                const skills = ref([])
+
+                // await new Promise(resolve => setTimeout(resolve, 5000));
+
+                skills.value = [
+                        {
+                                name: "PHP",
+                                icon: "frontend/icon/php.svg",
+                                link: "https://www.php.net/",
+                                alt: "php",
+                        },
+                        {
+                                name: "Laravel",
+                                icon: "frontend/icon/laravel.svg",
+                                link: "https://laravel.com/",
+                                alt: "laravel",
+                        },
+                        {
+                                name: "Codeigniter",
+                                icon: "frontend/icon/codeigniter.svg",
+                                link: "https://codeigniter.com/",
+                                alt: "codeigniter",
+                        },
+                        {
+                                name: "Python",
+                                icon: "frontend/icon/python.svg",
+                                link: "https://www.python.org/",
+                                alt: "py",
+                        },
+                        {
+                                name: "MySQL",
+                                icon: "frontend/icon/mysql.svg",
+                                link: "https://www.mysql.com/",
+                                alt: "mysql",
+                        },
+                        {
+                                name: "HTML",
+                                icon: "frontend/icon/html.svg",
+                                link: "https://id.wikipedia.org/wiki/HTML",
+                                alt: "html",
+                        },
+                        {
+                                name: "CSS",
+                                icon: "frontend/icon/css.svg",
+                                link: "https://en.wikipedia.org/wiki/CSS",
+                                alt: "css",
+                        },
+                        {
+                                name: "JavaScript",
+                                icon: "frontend/icon/javascript.svg",
+                                link: "https://id.wikipedia.org/wiki/JavaScript",
+                                alt: "javascript",
+                        },
+                        {
+                                name: "Bootstrap",
+                                icon: "frontend/icon/bootstrap.svg",
+                                link: "https://getbootstrap.com/",
+                                alt: "bootstrap",
+                        },
+                        {
+                                name: "ReactJS",
+                                icon: "frontend/icon/reactjs.svg",
+                                link: "https://reactjs.org/",
+                                alt: "reactjs",
+                        },
+                        {
+                                name: "VueJS",
+                                icon: "frontend/icon/vuejs.svg",
+                                link: "https://vuejs.org/",
+                                alt: "vuejs",
+                        },
+                        {
+                                name: "VSCode",
+                                icon: "frontend/icon/vscode.svg",
+                                link: "https://code.visualstudio.com/",
+                                alt: "vscode",
+                        },
+                        {
+                                name: "Filmora",
+                                icon: "frontend/icon/filmora.svg",
+                                link: "https://filmora.wondershare.net/filmora-video-editor.html?gclid=CjwKCAjw9aiIBhA1EiwAJ_GTSkhAwcp5LzvwB2z2vAAr5zck5z_1TaB8jGz3r0kQn_b8gMcRWJhlZRoCT3gQAvD_BwE",
+                                alt: "filmora",
+                        },
+                        {
+                                name: "Figma",
+                                icon: "frontend/icon/figma.svg",
+                                link: "https://www.figma.com",
+                                alt: "figma",
+                        },
+                        {
+                                name: "PhpStorm",
+                                icon: "frontend/icon/phpstorm.svg",
+                                link: "https://www.jetbrains.com/phpstorm/",
+                                alt: "phpstorm",
+                        },
+                        {
+                                name: "IntelliJ Idea",
+                                icon: "frontend/icon/IntelliJ_idea.svg",
+                                link: "https://www.jetbrains.com/idea/",
+                                alt: "phpstorm",
+                        },
+                ]
+
+                return {
+                        skills,
+                }
+        },
 };
 </script>
 

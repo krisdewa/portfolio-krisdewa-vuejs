@@ -40,7 +40,7 @@ export default {
     data() {
         return {
             home: {
-                main: require('../assets/hero/main_foto.png')
+                main: require('../assets/hero/main_foto1.png')
             }
         }
     },
