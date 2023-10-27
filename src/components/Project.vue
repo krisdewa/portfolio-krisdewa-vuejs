@@ -16,15 +16,13 @@
                                 <div class="col-lg-6 mt-1">
                                     <div class="d-grid gap-2">
                                         <p class="btn-sm btn-back text-center">-</p>
-                                        <a v-bind:href="porto.link" target="_blank"
-                                            class="btn btn-sm btn-custom">Visit</a>
+                                        <a v-bind:href="porto.link" target="_blank" class="btn btn-sm btn-custom">Visit</a>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 mt-1">
                                     <div class="d-grid gap-2">
                                         <a class="btn-sm btn-back text-center">-</a>
-                                        <a v-bind:href="porto.repo" class="btn btn-sm btn-custom"
-                                            target="_blank">Github</a>
+                                        <a v-bind:href="porto.repo" class="btn btn-sm btn-custom" target="_blank">Github</a>
                                     </div>
                                 </div>
                             </div>
@@ -195,7 +193,7 @@ export default {
                 img: 'frontend/portfolio/yogsmap.png',
                 title: "YOGSMAP",
                 deskripsi: "",
-                link: "https://yogsmap.krisdewa.my.id",
+                link: "https://github.com/krisdewa/yogsmap",
                 repo: "https://github.com/krisdewa/yogsmap"
             },
             {
@@ -209,7 +207,7 @@ export default {
                 img: 'frontend/portfolio/apotek.png',
                 title: "APOTEK-24",
                 deskripsi: "",
-                link: "https://apotek.krisdewa.my.id",
+                link: "https://github.com/krisdewa/PHP-CRUD-Apotek",
                 repo: "https://github.com/krisdewa/PHP-CRUD-Apotek"
             },
             {
@@ -238,7 +236,7 @@ export default {
                 title: "Quran (VueJS)",
                 deskripsi: "",
                 link: "https://quran.krisproject.my.id",
-                repo: "https://"
+                repo: "https://github.com/krisdewa/Al-Quran-Online"
             },
         ]
 
