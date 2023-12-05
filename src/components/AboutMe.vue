@@ -24,15 +24,15 @@
                                         <h5>Name</h5>
                                         <p class="section-description">Krisna Dewa Pratama</p>
                                         <h5>Email</h5>
-                                        <p class="section-description">krisnadp@gmail.com</p>
+                                        <p class="section-description">krisnadp23@gmail.com</p>
                                         <h5>Address</h5>
                                         <p class="section-description">Madiun, Indonesia</p>
                                     </div>
                                     <div class="col-xl-6 col-lg-12">
-                                        <h5>Fresh Graduate School</h5>
+                                        <h5>School</h5>
                                         <p class="section-description">Universitas Ahmad Dahlan</p>
                                         <h5>Major</h5>
-                                        <p class="section-description">Informatics</p>
+                                        <p class="section-description">Bachelor Of Informatics</p>
                                         <h5>Focus in</h5>
                                         <p class="section-description">Web Developer & Cyber Security</p>
                                     </div>

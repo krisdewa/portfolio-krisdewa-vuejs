@@ -20,7 +20,19 @@
                         want hire or discuss about project just contact me, by
                         click the button down bellow.
                     </p>
-                    <a href="mailto:krisnadp23@gmail.com" class="btn btn-primary contact">Let's Work Together</a>
+                    <!-- <a href="https://drive.google.com/file/d/1IWwpJG_B1oYYQ8qceeoNH2Y1FHKEpddF/view?usp=sharing"
+                        target="_blank" class="btn btn-primary cv">Download CV</a> -->
+                    <!-- <a href="mailto:krisnadp23@gmail.com" class="btn btn-primary contact">Let's Work Together</a> -->
+
+                    <button class="btncv">
+                        <a href="https://drive.google.com/file/d/1IWwpJG_B1oYYQ8qceeoNH2Y1FHKEpddF/view?usp=sharing"
+                            target="_blank">
+                            Download CV
+                        </a>
+                    </button>
+                    <button class="btnmail">
+                        <a href="mailto:krisnadp23@gmail.com">Let's Work Together</a>
+                    </button>
                 </div>
                 <div class="col-md-4">
                     <!-- <img class="hero_img img-fluid" src="frontend/hero/main_foto .png" alt="Foto Krisdewa"
@@ -43,37 +55,37 @@ export default {
             }
         };
     },
-    mounted() {
-        const image = this.$el.querySelector(".hero_img[data-src]");
+    // mounted() {
+    //     const image = this.$el.querySelector(".hero_img[data-src]");
 
-        if (image) {
-            const imgOptions = {
-                threshold: 0,
-                rootMargin: "0px 0px 50px 0px",
-            };
+    //     if (image) {
+    //         const imgOptions = {
+    //             threshold: 0,
+    //             rootMargin: "0px 0px 50px 0px",
+    //         };
 
-            const imgObserver = new IntersectionObserver((entries, imgObserver) => {
-                entries.forEach((entry) => {
-                    if (!entry.isIntersecting) {
-                        return;
-                    } else {
-                        preloadImage(entry.target);
-                        imgObserver.unobserve(entry.target);
-                    }
-                });
-            }, imgOptions);
+    //         const imgObserver = new IntersectionObserver((entries, imgObserver) => {
+    //             entries.forEach((entry) => {
+    //                 if (!entry.isIntersecting) {
+    //                     return;
+    //                 } else {
+    //                     preloadImage(entry.target);
+    //                     imgObserver.unobserve(entry.target);
+    //                 }
+    //             });
+    //         }, imgOptions);
 
-            imgObserver.observe(image);
-        }
+    //         imgObserver.observe(image);
+    //     }
 
-        function preloadImage(img) {
-            const src = img.getAttribute("data-src");
-            if (!src) {
-                return;
-            }
+    //     function preloadImage(img) {
+    //         const src = img.getAttribute("data-src");
+    //         if (!src) {
+    //             return;
+    //         }
 
-            img.src = src;
-        }
-    },
+    //         img.src = src;
+    //     }
+    // },
 };
 </script>

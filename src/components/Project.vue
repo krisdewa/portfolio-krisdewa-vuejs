@@ -11,8 +11,23 @@
                         <img v-bind:src="porto.img" class="w-100 rounded" loading="lazy" />
                         <div class="card-body">
                             <h5 class="card-title"> {{ porto.title }} </h5>
-                            <p class="card-text">{{ porto.deskripsi }}</p>
-                            <div class="row justify-content-center">
+
+                            <!-- <p class="card-text text-secondary-subtle bg-danger"> {{ porto.deskripsi }} </p> -->
+
+                            <div :class="porto.bgd" class="badge text-wrap text-dark m-1">
+                                {{ porto.deskripsi }}
+                            </div>
+                            <div :class="porto.bgd1" class="badge text-wrap text-dark m-1">
+                                {{ porto.deskripsi1 }}
+                            </div>
+                            <div :class="porto.bgd2" class="badge text-wrap text-dark m-1">
+                                {{ porto.deskripsi2 }}
+                            </div>
+                            <div :class="porto.bgd3" class="badge text-wrap text-dark m-1">
+                                {{ porto.deskripsi3 }}
+                            </div>
+
+                            <div class="row justify-content-center mt-3">
                                 <div class="col-lg-6 mt-1">
                                     <div class="d-grid gap-2">
                                         <p class="btn-sm btn-back text-center">-</p>
@@ -31,114 +46,6 @@
                 </div>
 
                 <!-- <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="project-item show rounded">
-                        <img src="frontend/portfolio/yogsmap.png" class="w-100" loading="lazy" />
-                        <div class="overlay-project">
-                            <div class="justify-content-center text-center">
-                                <h4 class="project-title text-center mb-4">YOGSMAP(Php)</h4>
-                                <a class="viewproject" href="https://yogsmap.krisdewa.my.id" target="_blank">LINK</a>
-                                <a class="viewproject" href="https://github.com/krisdewa/yogsmap"
-                                    target="_blank">REPO</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="project-item show rounded">
-                        <img src="frontend/portfolio/webprofile1.png" class="w-100" loading="lazy" />
-                        <div class="overlay-project">
-                            <div class="justify-content-center text-center">
-                                <h4 class="project-title text-center mb-4">WEB PROFILE(Vue js)</h4>
-                                <a class="viewproject" href="https://krisproject.my.id" target="_blank">LINK</a>
-                                <a class="viewproject" href="https://github.com/krisdewa/portfolio-krisdewa-vuejs"
-                                    target="_blank">REPO</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="project-item show rounded">
-                        <img src="frontend/portfolio/apotek.png" class="w-100" loading="lazy" />
-                        <div class="overlay-project">
-                            <div class="justify-content-center text-center">
-                                <h4 class="project-title text-center mb-4">APOTEK-24</h4>
-                                <a class="viewproject" href="https://apotek.krisdewa.my.id" target="_blank">LINK</a>
-                                <a class="viewproject" href="https://github.com/krisdewa/PHP-CRUD-Apotek"
-                                    target="_blank">REPO</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="project-item show rounded">
-                        <img src="frontend/portfolio/kostqita.png" class="w-100" loading="lazy" />
-                        <div class="overlay-project">
-                            <div class="justify-content-center text-center">
-                                <h4 class="project-title text-center mb-4">KOST QITA(CodeIgniter)</h4>
-                                <a class="viewproject" href="https://here.krisdewa.my.id" target="_blank">LINK</a>
-                                <a class="viewproject" href="#" target="_blank">REPO</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="project-item show rounded">
-                        <img src="frontend/portfolio/ppdbsekolahkakseto.png" class="w-100" loading="lazy" />
-                        <div class="overlay-project">
-                            <div class="justify-content-center text-center">
-                                <h4 class="text-center">SIK SekolahKakSeto</h4>
-                                <a class="viewproject" href="#" target="_blank">LINK</a>
-                                <a class="viewproject" href=""
-                                    target="_blank">REPO</a>
-                        </div>
-                    </div>
-                </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="project-item show rounded">
-                        <img src="frontend/portfolio/linkkrisdewa.png" class="w-100" loading="lazy" />
-                        <div class="overlay-project">
-                            <div class="justify-content-center text-center">
-                                <h4 class="text-center">Clone LinkTree (ReactJS)</h4>
-                                <a class="viewproject" href="https://link.krisproject.my.id" target="_blank">LINK</a>
-                                <a class="viewproject" href="https://github.com/krisdewa/clone-linktree-react"
-                                    target="_blank">REPO</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="project-item show rounded">
-                        <img src="frontend/portfolio/quran.png" class="w-100" loading="lazy" />
-                        <div class="overlay-project">
-                            <div class="justify-content-center text-center">
-                                <h4 class="text-center">Quran (VueJS - Fetching API)</h4>
-                                <a class="viewproject" href="https://quran.krisproject.my.id" target="_blank">LINK</a>
-                                <a class="viewproject" href="https://github.com/krisdewa/" target="_blank">REPO</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="project-item show rounded">
-                        <img src="frontend/portfolio/comingsoon.jpg" class="w-100" loading="lazy" />
-                        <div class="overlay-project">
-                            <h4 class="text-center">Coming Soon</h4>
-                            <a class="viewproject" href="https://here.krisdewa.my.id" target="_blank">Coming
-                                Soon</a>
-                            <a class="viewproject" href="https://here.krisdewa.my.id" target="_blank">REPO</a>
-                        </div>
-                    </div>
-                </div> -->
-
-                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card">
                         <img src="frontend/portfolio/comingsoon.jpg" class="w-100 rounded" loading="lazy" />
                         <div class="card-body">
@@ -154,13 +61,13 @@
                                 <div class="col-lg-6 mt-1">
                                     <div class="d-grid gap-2">
                                         <a class="btn-sm btn-back text-center">-</a>
-                                        <a href="#" class="btn btn-sm btn-custom">Github</a>
+                                        <a href="#" class="btn btn-sm btn-custom">Repository</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- NOTE -->
                 <!-- {{-- <p class="note text-center">*Mohon maaf Project masih sedikit.')</p> --}} -->
@@ -184,59 +91,105 @@ export default {
         portfolio.value = [
             {
                 img: 'frontend/portfolio/adjineon.png',
-                title: "CV Adjineon Advertising Jambi",
-                deskripsi: "",
+                title: "Adjineon Advertising Jambi",
+                bgd: "bg-primary",
+                deskripsi: "PHP",
+                bgd1: "bg-light",
+                deskripsi1: "MySQL",
                 link: "https://adjineon.com",
-                repo: "#"
+                repo: "https://adjineon.com"
             },
             {
                 img: 'frontend/portfolio/yogsmap.png',
-                title: "YOGSMAP",
-                deskripsi: "",
+                title: "Yogsmap(Yogyakarta Map)",
+                bgd: "bg-primary",
+                deskripsi: "PHP",
+                bgd1: "bg-warning",
+                deskripsi1: "Javascript",
+                bgd2: "bg-light",
+                deskripsi2: "MySQL",
                 link: "https://github.com/krisdewa/yogsmap",
                 repo: "https://github.com/krisdewa/yogsmap"
             },
             {
                 img: 'frontend/portfolio/webprofile1.png',
-                title: "WEB PROFILE",
-                deskripsi: "",
+                title: "Web Profile KrisDewa",
+                bgd: "bg-success",
+                deskripsi: "Vue.Js",
+                bgd1: "bg-warning",
+                deskripsi1: "CSS",
+                bgd2: "bg-primary",
+                deskripsi2: "Bootstrap",
                 link: "https://krisproject.my.id",
                 repo: "https://github.com/krisdewa/portfolio-krisdewa-vuejs"
             },
             {
                 img: 'frontend/portfolio/apotek.png',
-                title: "APOTEK-24",
-                deskripsi: "",
+                title: "Apotek-24",
+                bgd: "bg-primary",
+                deskripsi: "PHP",
+                bgd1: "bg-warning",
+                deskripsi1: "JS",
+                bgd2: "bg-light",
+                deskripsi2: "MySQL",
                 link: "https://github.com/krisdewa/PHP-CRUD-Apotek",
                 repo: "https://github.com/krisdewa/PHP-CRUD-Apotek"
             },
             {
                 img: 'frontend/portfolio/kostqita.png',
-                title: "KOST QITA",
-                deskripsi: "",
-                link: "https://here.krisdewa.my.id",
-                repo: "#"
+                title: "Kost Qita Yogyakarta",
+                bgd: "bg-primary bg-opacity-50",
+                deskripsi: "CodeIgniter",
+                bgd1: "bg-light",
+                deskripsi1: "MySQL",
+                link: "https://kostqita.com",
+                repo: "https://kostqita.com"
             },
             {
                 img: 'frontend/portfolio/ppdbsekolahkakseto.png',
-                title: "SIK Sekolah Kak Seto",
-                deskripsi: "",
+                title: "Sistem Kolaborasi Sekolah Kak Seto",
+                bgd: "bg-primary",
+                deskripsi: "CodeIgniter",
+                bgd1: "bg-danger",
+                deskripsi1: "Laravel",
+                bgd2: "bg-secondary",
+                deskripsi2: "light",
                 link: "https://sekolahkakseto.sch.id/",
-                repo: "#"
+                repo: "https://sekolahkakseto.sch.id/"
             },
             {
                 img: 'frontend/portfolio/linkkrisdewa.png',
-                title: "Clone LinkTree",
-                deskripsi: "",
+                title: "Clone LinkTree(React.Js)",
+                bgd: "bg-primary",
+                deskripsi: "React.Js",
+                bgd1: "bg-warning",
+                deskripsi1: "CSS",
+                bgd2: "bg-info",
+                deskripsi2: "Particles.Js",
                 link: "https://link.krisproject.my.id",
                 repo: "https://github.com/krisdewa/clone-linktree-react"
             },
             {
                 img: 'frontend/portfolio/quran.png',
-                title: "Quran (VueJS)",
-                deskripsi: "",
+                title: "Quran Online",
+                bgd: "bg-success",
+                deskripsi: "Vue.Js",
+                bgd1: "bg-warning text-light",
+                deskripsi1: "Axios",
+                bgd2: "bg-info",
+                deskripsi2: "API Quran",
                 link: "https://quran.krisproject.my.id",
                 repo: "https://github.com/krisdewa/Al-Quran-Online"
+            },
+            {
+                img: 'frontend/portfolio/comingsoon.jpg',
+                title: "Coming Soon",
+                bgd: "bg-info",
+                deskripsi: "Golang",
+                bgd1: "bg-light",
+                deskripsi1: "Express.Js",
+                link: "https://github.com/krisdewa",
+                repo: "https://github.com/krisdewa"
             },
         ]
 

@@ -379,69 +379,120 @@ html {
 }
 
 /* .hero .contact {
-  background: #f05454;
-  border: #f05454;
-  padding: 5px 0px;
-  font-weight: 700;
-  font-size: 16px;
-  margin-top: 15px;
-  border-radius: 5px;
-  width: 180px;
+    background: #f05454;
+    border: #f05454;
+    padding: 5px 0px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 180px;
 }
+
 .hero .contact:hover {
-  background: rgb(255, 255, 255);
-  color: #f05454;
+    background: rgb(255, 255, 255);
+    color: #f05454;
 }
+
 .hero .contact {
-  animation: bounceTop 10s ease infinite;
+    animation: bounceTop 10s ease infinite;
 }
+
 @keyframes bounceTop {
-  0%,
-  100% {
-    transform: translateY(-20px);
-  }
-  50% {
-    transform: translateY(0px);
-  }
+
+    0%,
+    100% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
 } */
 
-.hero .contact {
-    background: none;
-    border: 2px solid #f05454;
-    font-family: "montserrat", sans-serif;
-    text-transform: uppercase;
-    padding: 9px 15px;
-    min-width: 200px;
-    margin: 10px;
+
+
+.btnmail {
+    border: none;
+    text-align: center;
     cursor: pointer;
-    transition: color 0.4s linear;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
     position: relative;
+    background-color: #2d3541;
+    padding: 9px 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
 }
 
-.hero .contact:hover {
+.btnmail a {
     color: #fff;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
 }
 
-.hero .contact::before {
+.btnmail:after {
     content: "";
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    height: 600%;
+    width: 140%;
     background: #f05454;
-    z-index: -1;
-    transition: transform 0.5s;
-    transform-origin: 0 0;
-    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
 
-.hero .contact::before {
-    transform: scaleX(0);
+.btnmail:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
-.hero .contact:hover::before {
-    transform: scaleX(1);
+.btncv {
+    margin: 10px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    background-color: #2d3541;
+    padding: 9px 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+}
+
+.btncv a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.btncv:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 390%;
+    width: 140%;
+    background: #f05454;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btncv:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
 .hero .hero_img {
@@ -519,7 +570,8 @@ span.line {
 }
 
 .about_img {
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
 }
 
 .about_img:hover {

@@ -26,7 +26,7 @@
                                 <div class="col-lg-6 mt-1">
                                     <div class="d-grid gap-2">
                                         <a class="btn-sm btn-back text-center">-</a>
-                                        <a class="btn btn-sm btn-custom">Github</a>
+                                        <a class="btn btn-sm btn-custom">Repository</a>
                                     </div>
                                 </div>
                             </div>
