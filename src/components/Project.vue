@@ -8,7 +8,7 @@
 
                 <div class="col-lg-4 col-md-6 mb-4" v-for="(porto, index) in portfolio" :key="index">
                     <div class="card">
-                        <img v-bind:src="porto.img" class="w-100 rounded" loading="lazy" />
+                        <img v-bind:src="porto.img" class="w-100 rounded" loading="lazy" :alt="porto.alt" />
                         <div class="card-body">
                             <h5 class="card-title"> {{ porto.title }} </h5>
 
@@ -91,6 +91,7 @@ export default {
         portfolio.value = [
             {
                 img: 'frontend/portfolio/adjineon.png',
+                alt: "Adjineon Advertising Jambi",
                 title: "Adjineon Advertising Jambi",
                 bgd: "bg-primary",
                 deskripsi: "PHP",
@@ -101,6 +102,7 @@ export default {
             },
             {
                 img: 'frontend/portfolio/yogsmap.png',
+                alt: "Yogsmap(Yogyakarta Map)",
                 title: "Yogsmap(Yogyakarta Map)",
                 bgd: "bg-primary",
                 deskripsi: "PHP",
@@ -113,6 +115,7 @@ export default {
             },
             {
                 img: 'frontend/portfolio/webprofile1.png',
+                alt: "Web Profile KrisDewa",
                 title: "Web Profile KrisDewa",
                 bgd: "bg-success",
                 deskripsi: "Vue.Js",
@@ -125,6 +128,7 @@ export default {
             },
             {
                 img: 'frontend/portfolio/apotek.png',
+                alt: "Apotek-24",
                 title: "Apotek-24",
                 bgd: "bg-primary",
                 deskripsi: "PHP",
@@ -137,6 +141,7 @@ export default {
             },
             {
                 img: 'frontend/portfolio/kostqita.png',
+                alt: "Kost Qita Yogyakarta",
                 title: "Kost Qita Yogyakarta",
                 bgd: "bg-primary bg-opacity-50",
                 deskripsi: "CodeIgniter",
@@ -147,6 +152,7 @@ export default {
             },
             {
                 img: 'frontend/portfolio/ppdbsekolahkakseto.png',
+                alt: "PPDB Sekolah Kak Seto",
                 title: "Sistem Kolaborasi Sekolah Kak Seto",
                 bgd: "bg-primary",
                 deskripsi: "CodeIgniter",
@@ -159,6 +165,7 @@ export default {
             },
             {
                 img: 'frontend/portfolio/linkkrisdewa.png',
+                alt: "Link KrisDewa",
                 title: "Clone LinkTree(React.Js)",
                 bgd: "bg-primary",
                 deskripsi: "React.Js",
@@ -171,6 +178,7 @@ export default {
             },
             {
                 img: 'frontend/portfolio/quran.png',
+                alt: "Al-Quran Online",
                 title: "Quran Online",
                 bgd: "bg-success",
                 deskripsi: "Vue.Js",
@@ -183,6 +191,7 @@ export default {
             },
             {
                 img: 'frontend/portfolio/comingsoon.jpg',
+                alt: "Coming Soon",
                 title: "Coming Soon",
                 bgd: "bg-info",
                 deskripsi: "Golang",
